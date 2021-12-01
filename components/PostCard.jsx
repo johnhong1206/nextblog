@@ -40,6 +40,7 @@ function PostCard({ post }) {
             width="30px"
             className="align-middle rounded-full"
             src={post.author.photo.url}
+            quality="50"
           />
           <p className="inline align-middle text-gray-700 ml-2 font-medium text-lg">
             {post.author.name}

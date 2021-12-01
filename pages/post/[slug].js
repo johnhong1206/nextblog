@@ -13,6 +13,12 @@ import { getPosts, getPostDetails } from "../../services";
 import { AdjacentPosts } from "../../sections";
 
 function PostDetails({ post }) {
+  const router = useRouter();
+
+  if (router.isFallback) {
+    return <Loader />;
+  }
+
   return (
     <div className="container mx-auto px-10 mb-8">
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-12">
