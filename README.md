@@ -10,4 +10,3 @@ This blog is built by NextJS, GraphQl, and Tailwind CSS
 
 1) Admin Posting Page
 
-
