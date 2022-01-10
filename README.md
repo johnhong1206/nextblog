@@ -7,6 +7,7 @@ This blog is built by NextJS, GraphQl, and Tailwind CSS
 2) Category
 
 ---Future Update Plan---
-2) Admin Posting Page
+
+1) Admin Posting Page
 
 
